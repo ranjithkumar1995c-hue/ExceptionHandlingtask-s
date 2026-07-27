@@ -1,8 +1,9 @@
 package ExceptionHandlingtask;
-
+Task No:1
+Write a program to divide two numbers and handle ArithmeticException.
 public class Exceptiontask {
 
-	public static void main (String[] args){
+	public static void main (String[] args) throws ArithmeticException{
 		try {
 			int a;
 			int b=120;
@@ -32,7 +33,10 @@ public class Exceptiontask {
 		}}
 (OUTPUT)=>Exception occured....
 Exception Handling is done....
-package ExceptionHandlingtask;
+package ExceptionHandlingtask;.
+
+Task No:3
+Access an array element beyond its size and handle ArrayIndexOutOfBoundsException.
 
 public class Exceptiontask2 {
 
