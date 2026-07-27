@@ -1,1 +1,38 @@
+package ExceptionHandlingtask;
+
+public class Exceptiontask {
+
+	public static void main (String[] args){
+		try {
+			int a;
+			int b=120;
+			a=50/10;
+			if(b>=100) {
+				throw new Exception("cannot be exceeding 100 and above...");
+			}
+//			System.out.println("Exception occured....");
+// Usage of throw if there is no critical Statement.
+			
+				throw new Exception ("cannot be exceeding 100 and above....");
+			}
+		
+// System.out.println("Exception occured....");
+
+		
+		
+			
+//Manual error create.
+	catch(Exception e) {
+		System.out.println("Exception occured....");
+	}
+	finally {
+		System.out.println("Exception Handling is done....");
+	}
+		
+		}}
+(OUTPUT)=>Exception occured....
+Exception Handling is done....
+
+
+
 
