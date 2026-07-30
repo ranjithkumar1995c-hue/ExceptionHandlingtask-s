@@ -206,7 +206,30 @@ public class InvalidAgeExceptiontask {
 (OUTPUT)=>Invalid age Exception occured....
 Exception age Handling is done....
 Exception age Handling is done....
+//9.) Java program to find Palindrome number.
+public class Interviewcodes {
 
+public static void main(String[] args) {
+Scanner sc=new Scanner(System.in);
+System.out.println("Enter any Number");
+int number=sc.nextInt();
+if(ispalindrome(number)) {
+	System.out.println(number+"is a palindrome...");
+}else {
+	System.out.println(number+"is a not a palindrome...");
+	
+
+public static boolean ispalindrome(intnum) {
+	int originalNumber=num;
+	int reverseNumber=0;
+	while(num!=0) {
+		int digit=num%10;
+		reversedNumber=reverse num*10+digit;
+		num=num/10;
+	}
+	return original Number==reversed Number;
+}}
+(OUTPUT)=>Enter a number: 1001 1001 is a palindrome. 
 
 
 
