@@ -111,6 +111,48 @@ public class NullpointExceptiontask {
 		 e.slave();
 	}}
 (OUTPUT)=>Error Occured here is java.lang.NullPointerException: Cannot invoke "String.length()" because "s" is null
+package ExceptionHandlingtask;
+// 5.Write a program that handles:
+// 6.ArithmeticException.
+// 7.ArrayIndexOutOfBoundsException. 
+// 8.Manually throw an exception if age < 18 eligible to license. 
+public class Handlestasks {
+	
+
+public static void main (String[] args)
+
+//			throws ArithmeticException{
+			throws ArrayIndexOutOfBoundsException{
+			
+				try {
+					int a;
+					int b=20;
+					a=20/10;
+					if(b>=18) {
+						throw new Exception("cannot be exceeding age=20 and above...");
+					}
+//					System.out.println("Exception occured....");
+		// Usage of throw if there is no critical Statement.
+					
+						throw new Exception ("cannot be exceeding age=20 and above....");
+					}
+				
+		// System.out.println("Exception occured....");
+
+				
+				
+					
+		//Manual error create.
+			catch(Exception e) {
+				System.out.println("Exception occured....");
+			}
+			finally {
+				System.out.println("Exception age Handling is done....");
+			}
+				
+}}			
+(OUTPUT)=>Exception occured....
+          Exception age Handling is done....
 
 
 
