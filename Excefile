@@ -89,6 +89,29 @@ finally {
 }}
 (OUTPUT)=>Exception occured....
           Exception Handling is done....
+package ExceptionHandlingtask;
+//Task No:4.
+//Handle NullPointerException.
+public class NullpointExceptiontask {
+	public  void throwsException()throws Exception{
+		String s=null;
+		System.out.println(s.length());
+	}
+	public void slave() {
+		try {
+			throwsException();
+		}
+		catch(Exception e) {
+			System.out.println("Error Occured here is "+e);
+			
+		}}
+	public static void main (String[] args)
+	throws Exception{
+		 Exceptiontask2 e=new  Exceptiontask2();
+		 e.slave();
+	}}
+(OUTPUT)=>Error Occured here is java.lang.NullPointerException: Cannot invoke "String.length()" because "s" is null
+
 
 
 
