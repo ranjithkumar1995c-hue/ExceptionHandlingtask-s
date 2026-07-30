@@ -153,6 +153,59 @@ public static void main (String[] args)
 }}			
 (OUTPUT)=>Exception occured....
           Exception age Handling is done....
+package ExceptionHandlingtask;
+//Create your own exception class: InvalidAgeException
+//Throw it if age < 18
+//Catch and display message
+//Check output:
+//try {
+//   return 10;
+//} finally {
+//   return 20;
+//}
+//Create 3 methods:
+//method1 → method2 → method3 Throw exception in method3
+//Handle in main
+
+public class InvalidAgeExceptiontask {
+
+	public static void main (String[] args)
+
+
+	throws ArrayIndexOutOfBoundsException{
+		
+			try {
+				int a;
+				int b=20;
+				a=20/10;
+				if(b>=18) 
+		   {
+				throw new Exception("cannot be exceeding age=20 and above...");
+			}
+
+
+			
+				throw new Exception ("cannot be exceeding age=20 and above....");
+			}
+		
+
+
+		
+		catch(Exception e) {
+		System.out.println("Invalid age Exception occured....");
+	}
+	
+		finally {
+			System.out.println("Exception age Handling is done....");  
+			}
+		
+		System.out.println("Exception age Handling is done....");
+	
+		
+}}			
+(OUTPUT)=>Invalid age Exception occured....
+Exception age Handling is done....
+Exception age Handling is done....
 
 
 
